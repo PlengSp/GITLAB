@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 void main()
-{ char Name[60], G[5], answer[25];
+{ char Name[60], G[5], answer[15];
   int i;
   do
   {
@@ -44,5 +44,5 @@ void main()
     printf("\nContinue (YES for Yes)? ");
     scanf("%s", answer);
   } while (strcmp(answer, "YES") == 0);
-  printf("Thanks!\n");
+  printf("Good luck\n");
 }
